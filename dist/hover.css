@@ -1,4 +1,4 @@
-.container {
+.container1 {
   height: 100vh;
   width: 100vw;
   max-height: 800px;
@@ -53,6 +53,9 @@
   background: url("meg.jpg") center center no-repeat;
   background-size: 300px;
 }
+.card1 h2{
+  color:#a6a6a6;
+}
 .card1:hover {
   background: url("meg.jpg") left center no-repeat;
   background-size: 600px;
@@ -66,6 +69,9 @@
 .card2 {
   background: url("me.jpg") center center no-repeat;
   background-size: 300px;
+}
+.card2 h2{
+  color:#a6a6a6;
 }
 .card2:hover {
   background: url("me.jpg") left center no-repeat;

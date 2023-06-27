@@ -362,3 +362,27 @@ function initLoginForm() {
 }
 
 initLoginForm();
+const mysql = require('mysql2');
+
+// Create a connection
+const connection = mysql.createConnection({
+  host: 'localhost:60727',
+  user: 'AMAN',
+  password: 'Aman@2004',
+  database: 'mysql'
+});
+
+// Connect to the database
+connection.connect((err) => {
+  if (err) {
+    console.error('Error connecting to MySQL:', err);
+    return;
+  }
+  console.log('Connected to MySQL!');
+});
+
+// Perform database operations
+// ...
+
+// Close the connection
+connection.end();
